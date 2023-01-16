@@ -8,8 +8,7 @@ const passport = require("passport");
 const passportLocalMongoose = require("passport-local-mongoose");
 const app=express();
 
-var imageRouter = require('./image-route');
-app.use('/', imageRouter);
+
 const { google } = require('googleapis');
 const fs = require('fs');
 
